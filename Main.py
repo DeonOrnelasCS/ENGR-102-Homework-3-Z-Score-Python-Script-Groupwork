@@ -106,11 +106,14 @@ def z_score(x, mu, sigma):
     x is the population item
     mu is the population mean
     sigma is the population standard deviation
-
     Returns the z-score of x
     """
+    zScore = ((x - mu) / sigma)
 
     # Deon Ornelas, Miles Oehm, Gena Nelson
     # Your code goes between this comment and the return statement
 
-    return  # Place the calculated z-score result between the return statement and this comment so it will be returned by the z_score function
+    return  zScore # Place the calculated z-score result between the return statement and this comment so it will be returned by the z_score function
+
+# TEST using the above testing function to confirm it is working - Deon
+test_z_score_function()

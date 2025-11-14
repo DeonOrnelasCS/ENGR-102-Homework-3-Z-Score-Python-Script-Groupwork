@@ -117,3 +117,26 @@ def z_score(x, mu, sigma):
 
 # TEST using the above testing function to confirm it is working - Deon
 test_z_score_function()
+print("\n")
+
+# Proposed code from Gena
+print("The Z-Score for Population 1 when x equals the largest value is -",
+          z_score(greatest(population1), mean(population1), stdev(population1, mean(population1))))
+print("The Z-Score for Population 1 when x equals the smallest value is -",
+          z_score(least(population1), mean(population1), stdev(population1, mean(population1))))
+print("The Z-Score for Population 1 when x equals the average value is -",
+          z_score(mean(population1), mean(population1), stdev(population1, mean(population1))))
+print("\n")
+print("The Z-Score for Population 2 when x equals the largest value is -",
+          z_score(greatest(population2), mean(population2), stdev(population2, mean(population2))))
+print("The Z-Score for Population 2 when x equals the smallest value is -",
+          z_score(least(population2), mean(population2), stdev(population2, mean(population2))))
+print("The Z-Score for Population 2 when x equals the average value is -",
+          z_score(mean(population2), mean(population2), stdev(population2, mean(population2))))
+print("\n")
+print("The Z-Score for Population 3 when x equals the largest value is -",
+          z_score(greatest(population3), mean(population3), stdev(population3, mean(population3))))
+print("The Z-Score for Population 3 when x equals the smallest value is -",
+          z_score(least(population3), mean(population3), stdev(population3, mean(population3))))
+print("The Z-Score for Population 3 when x equals the average value is -",
+          z_score(mean(population3), mean(population3), stdev(population3, mean(population3))))

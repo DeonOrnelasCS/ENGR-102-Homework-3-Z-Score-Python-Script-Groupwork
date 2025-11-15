@@ -117,7 +117,7 @@ def z_score(x, mu, sigma):
 
 print ("Test cases")
 print("----------")
-# Proposed code from Gena
+# Test case code from Gena
 print("The Z-Score for Population 1 when x equals the largest value is: ",
           z_score(greatest(population1), mean(population1), stdev(population1, mean(population1))))
 print("The Z-Score for Population 1 when x equals the smallest value is: ",

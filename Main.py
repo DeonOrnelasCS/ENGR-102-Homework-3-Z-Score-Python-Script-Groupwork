@@ -110,13 +110,13 @@ def z_score(x, mu, sigma):
     """
     zScore = ((x - mu) / sigma)
 
-    # Deon Ornelas, Miles Oehm, Gena Nelson
-    # Your code goes between this comment and the return statement
+    # Group Participants: Deon Ornelas, Miles Oehm, Gena Nelson
 
-    return  zScore # Place the calculated z-score result between the return statement and this comment so it will be returned by the z_score function
+    return  zScore
 
 print ("Test cases")
 print("----------")
+
 # Test case code from Gena
 print("The Z-Score for Population 1 when x equals the largest value is: ",
           z_score(greatest(population1), mean(population1), stdev(population1, mean(population1))))
